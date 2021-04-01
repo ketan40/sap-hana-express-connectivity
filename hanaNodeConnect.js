@@ -3,11 +3,11 @@ const hanaClient = require("@sap/hana-client");
 const connection = hanaClient.createConnection();
 
 const connectionParams = {
-    host : "eds-hana-stg-01",
+    host : "************",
     port : 30013,
-    uid  : "REWARD",
+    uid  : "kl23k4haf8ehfu",
     pwd  : "Welcome123",
-    databaseName : "HIP"
+    databaseName : "dbName"
 }
 
 connection.connect(connectionParams, (err) => {

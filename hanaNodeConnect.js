@@ -5,7 +5,7 @@ const connection = hanaClient.createConnection();
 const connectionParams = {
     host : "************",
     port : 30013,
-    uid  : "kl23k4haf8ehfu",
+    uid  : "jhu98houibnuh0o",
     pwd  : "Welcome123",
     databaseName : "dbName"
 }
